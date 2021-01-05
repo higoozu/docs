@@ -5,16 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <meta name="description" content="A delightfully simple theme system for docsify.js. Features multiple themes with rich customization options, an improved desktop and mobile experience, and legacy browser support (IE10+).">
-    <meta name="google-site-verification" content="_EWJaM8G6xwMtEqemO4yN8WqSU2CaKVi3jTj0gLg48E">
-    <title>docsify-themeable - A delightfully simple theme system for docsify.js</title>
+    <meta name="description" content=""
+    <title>拜拜新闻纸 Bye Newspaper｜给新闻留一份历史的底稿</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="Defaults">
     <link rel="stylesheet" href="assets/css/main.css">
-
+    
     <!-- Alternate Stylesheets -->
-    <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="Defaults">
+    <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
     <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple Dark">
 
     <!-- Test Stylesheets -->
@@ -23,7 +22,20 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/dark.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/pure.css"> -->
 </head>
+<link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+<script>
+function changeCSS(cssFile, cssLinkIndex) {
 
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+}
+</script>
 <body>
     <div id="app"></div>
 
@@ -33,16 +45,16 @@
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
-            name       : 'docsify-themeable',
-            repo       : 'https://github.com/jhildenbiddle/docsify-themeable',
-            coverpage  : 'coverpage.md',
-            homepage   : 'introduction.md',
-            loadSidebar: 'sidebar.md',
+            name          : '<img src="/assets/img/logo-horizontal-blue.svg" width="75%"/> <sup>BETA</sup>',
+            //coverpage   : 'cover.md',
+            homepage   : 'index.md',
+            loadSidebar : 'sidebar.md',
+            notFoundPage: '404.md',
 
             // NAVIGATION
             // -----------------------------------------------------------------
             alias: {
-                '.*?/changelog': 'https://raw.githubusercontent.com/jhildenbiddle/docsify-themeable/master/CHANGELOG.md',
+                '.*?/changelog': 'https://cdn.jsdelivr.net/npm/docsify-themeable@0/CHANGELOG.md',
             },
             auto2top   : true,
             maxLevel   : 3,
@@ -51,24 +63,27 @@
             // PLUGINS
             // -----------------------------------------------------------------
             executeScript: true,
-            ga    : 'UA-100100910-3',
+            ga    : 'UA-17809464-2',
             search: {
                 depth      : 3,
-                noData     : 'No results!',
-                placeholder: 'Search...'
+                noData     : '没有结果',
+                placeholder: '搜索..'
             }
+            
+
         };
     </script>
     <script src="assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+   
 </body>
 </html>
