@@ -4,3 +4,5 @@
 - [相关研究](customization)
 - **链接**
 - [![Github](assets/img/github.svg)Github](https://github.com/bcsong/byenewspaper)
+- **鸣谢**
+- 本站使用 [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/) 搭建
