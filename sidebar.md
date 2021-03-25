@@ -1,7 +1,7 @@
 - [介绍](introduction)
-- [报纸列表](quick-start)
-- [媒体报道](themes)
-- [相关研究](customization)
+- [报纸列表](list)
+- [媒体报道](report)
+- [相关研究](research)
 - **链接**
 - [![Github](assets/img/github.svg)Github](https://github.com/bcsong/byenewspaper)
 - **鸣谢**
