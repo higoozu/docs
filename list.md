@@ -1,92 +1,104 @@
-# Quick Start
+# 停刊、休刊报纸列表
 
-## Installation
+## 数据统计
 
-1. [Create a docsify site](//docsify.js.org/#/quickstart) by following the instructions on the [docsify.js](//docsify.js.org) website.
 
-1. Select a theme from the [Themes](themes) section and replace the `<link>` in your `index.html`.
+## 2021年
 
-   ```html
-   <!-- Theme: Simple (latest v0.x.x) -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-   ```
+| 报刊名称       | 刊号           | 创办时间 | 主办单位                          | 地区       | 类型  | 停/休刊时间    | 状态 | 信源                                                                | 遗照 | 休刊词                                                               | 备注                                      |
+|------------|--------------|------|-------------------------------|----------|-----|-----------|----|-------------------------------------------------------------------|----|-------------------------------------------------------------------|-----------------------------------------|
+| 遵义晚报       | CN32-0013    | 1985 | 遵义日报社                         | 贵州遵义     | 都市报 | 2021年1月1日 | 停刊 | https://mp.weixin.qq.com/s/_pqGRuMyGRKHadEAQlK32w                 | 有  | https://mp.weixin.qq.com/s/_pqGRuMyGRKHadEAQlK32w                 |                                         |
+| 铜陵⽇报·铜都晨刊  | CN34-0008    | 1982 | 铜陵日报社                         | 安徽铜仁     | 都市报 | 2021年1月1日 | 停刊 | https://mp.weixin.qq.com/s/2sxIVmCxSfBDQYQXvTVEHA                 | 有  | https://mp.weixin.qq.com/s/2sxIVmCxSfBDQYQXvTVEHA                 |                                         |
+| 益阳城市报      | CN43-0043/11 | 1992 | 益阳广播电视局                       | 湖南益阳     | 都市报 | 2021年1月1日 | 停刊 | https://mp.weixin.qq.com/s/btQCuX_OpyRXOF9RgQI0BQ                 | 无  | https://mp.weixin.qq.com/s/btQCuX_OpyRXOF9RgQI0BQ                 |                                         |
+| 皖北晨刊       | CN34-0011    | 2004 | 拂晓报社                          | 安徽宿州     | 都市报 | 2021年1月1日 | 休刊 | http://www.zgfxnews.com/mp/wbck/html/2020-12/31/node_22.htm       | 有  | http://www.zgfxnews.com/mp/wbck/html/2020-12/31/node_22.htm       |                                         |
+| 广元晚报       | CN51—0129    | 2010 | 广元日报社                         | 四川广元     | 都市报 | 2021年1月1日 | 休刊 | https://mp.weixin.qq.com/s/PvsXTZgTpnlzMlcmVZ82gg                 | 有  | https://mp.weixin.qq.com/s/PvsXTZgTpnlzMlcmVZ82gg                 |                                         |
+| 内江晚报       | CN51—0126    | 2008 | 内江日报社                         | 四川内江     | 都市报 | 2021年1月1日 | 休刊 | https://mp.weixin.qq.com/s/PvsXTZgTpnlzMlcmVZ82gg                 | 有  | https://mp.weixin.qq.com/s/PvsXTZgTpnlzMlcmVZ82gg                 |                                         |
+| 德阳晚报       | CN51-0128    | 2010 | 德阳日报社                         | 四川德阳     | 都市报 | 2021年1月1日 | 休刊 | https://mp.weixin.qq.com/s/PvsXTZgTpnlzMlcmVZ82gg                 | 有  | https://mp.weixin.qq.com/s/PvsXTZgTpnlzMlcmVZ82gg                 |                                         |
+| 皖东晨刊       | CN34-1002    | 2004 | 滁州日报社                         | 安徽滁州     | 都市报 | 2021年1月1日 | 停刊 | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 有  | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml |                                         |
+| 东莞时报       | CN44-0184    | 2008 | 东莞报业传媒集团                      | 广东东莞     | 都市报 | 2021年1月1日 | 调整 | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 有  | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 日报改为周刊                                  |
+| 松原⽇报—晨讯    | CN22-0041    | 2002 | 松原日报社                         | 吉林松原     | 都市报 | 2021年1月1日 | 停刊 | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 有  | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml |                                         |
+| 漯河晚报       | CN41-0014    | 2007 | 漯河日报社                         | 河南漯河     | 都市报 | 2021年1月1日 | 休刊 | http://wb.lhrb.com.cn/page/26/2020-12/31/01/2020123101_pdf.pdf    | 有  | http://wb.lhrb.com.cn/page/26/2020-12/31/01/2020123101_pdf.pdf    |                                         |
+| 都市资讯报      | CN23-0046    | 1999 | 哈尔滨日报报业集团                     | 黑龙江省哈尔滨市 | 都市报 | 2021年1月1日 | 停刊 | http://www.360doc.com/content/21/0102/16/57917534_954834301.shtml | 有  | http://www.360doc.com/content/21/0102/16/57917534_954834301.shtml |                                         |
+| 遂宁⼴播电视报    | CN51-0095/10 | 1994 | 遂宁传媒集团                        | 四川遂宁     | 都市报 | 2021年1月1日 | 停刊 | http://snszb.scsntv.com/Html/2020-12-31/Qpaper.html               | 有  | http://snszb.scsntv.com/Html/2020-12-31/Qpaper.html               |                                         |
+| 重庆⽇报 农村版   | CN50-0001    | 2010 | 重庆日报报业集团                      | 重庆       | 行业报 | 2021年1月1日 | 休刊 | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 无  | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 找不到2021年开始的报纸电子版                        |
+| ⻘年时报       | CN33-0057    | 2001 | 共青团浙江省委                       | 浙江杭州     | 都市报 | 2021年1月1日 | 休刊 | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 无  | http://www.360doc.com/content/21/0104/15/54871593_955150866.shtml | 《青年时报》网站已关闭并且不能访问，其官微在2020.12.22后就停止更新。 |
+| 今日德胜       |              | 2010 | 中共北京西城区德胜街道工作委员会、西城区政府德胜街道办事处 | 北京西城     | 都市报 | 2021年1月1日 | 停刊 | http://www.360doc.com/content/21/0102/16/57917534_954834301.shtml | 无  | http://www.360doc.cn/mip/954834301.html                           | 该报纸为德胜街道的社区报，报纸头版未找到刊号                  |
+| 金融街周报      |              | 2012 | 北京市西城区政府金融街街道办事处、工委           | 北京西城     | 都市报 | 2021年1月1日 | 停刊 | http://www.360doc.cn/mip/954834301.html                           | 无  | http://www.360doc.cn/mip/954834301.html                           | 该报纸为金融街街道的社区报，报纸头版未找到刊号                 |
+| 飒漫画        | CN15-1059/G4 | 2008 | 河南省文学艺术界联合会                   | 河南郑州     | 杂志  | 2021年1月1日 | 停刊 | https://new.qq.com/omn/20210128/20210128A01OC700.html             | 无  | https://new.qq.com/omn/20210128/20210128A01OC700.html             |                                         |
+| 中外管理       | CN11-2812/C  | 2010 |                               | 北京       | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   | 被注销                                     |
+| 当代文萃       | CN11--4347/I | 1999 | 中国人民大学                        | 北京       | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   |                                         |
+| 家庭生活指南     | 23-1039/C    | 1985 | 黑龙江省科学技术协会                    | 黑龙江哈尔滨   | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   |                                         |
+| 成长读本       | 11-5759/G4   | 2013 | 中国人民大学                        | 北京       | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   |                                         |
+| 饮食保健.食疗大家  | CN15-1371/R  | 2014 | 内蒙古大学出版社                      | 内蒙古呼和浩特  | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   |                                         |
+| 创业邦        | 43-1489/F    | 2007 | 湖南大学                          | 北京       | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   |                                         |
+| 今日财富       | 15-1211/F    | 1984 | 内蒙古新华报业中心                     | 内蒙古呼和浩特  | 杂志  | 2021年1月1日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm       | 无  |                                                                   |                                         |
 
-1. Add the docsify-themeable plugin to your `index.html` after docsify:
+## 2020年
 
-   ```html
-   <!-- docsify-themeable (latest v0.x.x) -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-   ```
+| 报刊名称    | 刊号          | 创办时间 | 主办单位       | 地区      | 类型  | 停/休刊时间     | 状态 | 信源                                                                     | 遗照 | 休刊词                                                                    | 备注                   |
+|---------|-------------|------|------------|---------|-----|------------|----|------------------------------------------------------------------------|----|------------------------------------------------------------------------|----------------------|
+| 成都晚报    | CN51-0003   | 1965 | 《成都日报》集团   | 四川成都    | 都市报 | 2020年11月5日 | 停刊 |                                                                        |    |                                                                        |                      |
+| 内蒙古旅游报  | CN15-0088   | 2017 | 内蒙古日报社     | 内蒙古呼和浩特 | 行业报 | 2020年10月1日 | 休刊 | https://m.thepaper.cn/newsDetail_forward_9611619                       | 有  | http://szb.northnews.cn/nmglyb/html/2020-09/25/node_1.htm?v=1          |                      |
+| 书刊报     | CN13-0066/  | 1995 | 河北日报报业集团   | 河北石家庄   | 杂志  | 2020年9月30日 | 停刊 | http://www.qzlib.com.cn/zt/bkbl/202012/t20201216_208099.htm            | 无  |                                                                        |                      |
+| 发展导报    | CN14-0057   | 1992 | 山西日报报业集团   | 山西太原    | 都市报 | 2020年7月27日 | 休刊 |                                                                        |    |                                                                        |                      |
+| 三晋都市报   | CN14-0039   | 2000 | 山西日报报业集团   | 山西太原    | 都市报 | 2020年7月27日 | 休刊 |                                                                        |    |                                                                        |                      |
+| 东方卫报    | CN32-0028   | 2006 | 南京报业集团     | 江苏南京    | 都市报 | 2020年6月1日  | 休刊 | https://www.sohu.com/a/398970979_196120                                | 有  | https://www.sohu.com/a/398970979_196120                                |                      |
+| 新⽂化报    | CN22-0029   | 1988 | 吉林出版集团     | 吉林省长春市  | 都市报 | 2020年3月1日  | 休刊 | https://www.sohu.com/a/377217428_394951                                | 有  | https://www.sohu.com/a/377217428_394951                                |                      |
+| 新文化报    | CN22-0029   | 1988 | 吉林出版集团     | 吉林长春    | 都市报 | 2020年3月1日  | 休刊 | https://www.sohu.com/a/377217428_394951                                | 无  | https://www.sohu.com/a/377217428_394951                                |                      |
+| 武汉晨报    | CN42-0073   | 1999 | 长江日报报业集团   | 湖北武汉    | 都市报 | 2020年1月1日  | 休刊 | https://mp.weixin.qq.com/s/aMc5zC-DahuO26_Lswne-A                      | 有  | https://mp.weixin.qq.com/s/aMc5zC-DahuO26_Lswne-A                      |                      |
+| 都市消费晨报  | CN65-0067   | 1999 | 新疆经济报      | 新疆乌鲁木齐  | 都市报 | 2020年1月1日  | 调整 | https://baijiahao.baidu.com/s?id=1687958816568175395&wfr=spider&for=pc | 无  | https://baijiahao.baidu.com/s?id=1687958816568175395&wfr=spider&for=pc | 日报调整为周刊，曾是新疆发行量最大的报纸 |
+| 生活日报    | CN37-0079   | 1997 | 大众报业集团     | 山东济南    | 都市报 | 2020年1月1日  | 停刊 | https://baijiahao.baidu.com/s?id=1654397402519874211&wfr=spider&for=pc | 有  | htps://baijiahao.baidu.com/s?id=1654397402519874211&wfr=spider&for=pc |                      |
+| 本溪晚报    | CN21-0057   | 1995 | 本溪日报社      | 辽宁本溪    | 都市报 | 2020年1月1日  | 休刊 | https://www.thepaper.cn/newsDetail_forward_5390394                     | 有  | https://www.sohu.com/a/363813207_100211420                             |                      |
+| 吉安晚报    | CN36-0051   | 1993 | 井冈山报社      | 江西吉安    | 都市报 | 2020年1月1日  | 停刊 |                                                                        |    |                                                                        |                      |
+| 北方时报    | CN23－0062   |      | 黑龙江省政协     | 黑龙江哈尔滨  | 党报  | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 天府早报    | CN51—0104   | 1999 | 四川日报报业集团   | 四川成都    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 城市快报    | CN12-0008   | 2004 | 天津日报报业集团   | 天津      | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 浙中新报    | CN33-0074   | 2004 | 金华日报社      | 浙江金华    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 上海金融报   | CN31-0101   | 1992 | 中国人民银行上海分行 | 上海      | 行业报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 七都晚刊    | CN53-0007   | 2000 | 文山日报社      | 云南文山    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 自贡晚报    | CN51-0007   | 2006 | 自贡日报社      | 四川自贡    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 退休生活    | CN23-1003/C | 1983 | 黑龙江省委老干部局  | 黑龙江哈尔滨  | 杂志  | 2020年1月1日  | 停刊 |                                                                        |    |                                                                        |                      |
+| 百色早报    | CN45-0007   | 2009 | 右江日报社      | 广西百色    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 梧州广播电视报 |  CN45-0030  | 1987 | 梧州市广播电视局   | 广西梧州    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
+| 拉萨晚报    | CN54-0004   | 1985 |            | 西藏拉萨    | 都市报 | 2020年1月1日  | 休刊 |                                                                        |    |                                                                        |                      |
 
-1. Review the [Options](options) section and configure as needed. For example:
+## 2019年
 
-   ```html
-   <script>
-     window.$docsify = {
-         // ...
-         themeable: {
-             readyTransition : true, // default
-             responsiveTables: true  // default
-         }
-     }
-   </script>
-   ```
+| 报刊名称        | 刊号                | 创办时间         | 主办单位         | 地区      | 类型  | 停/休刊时间    | 状态 | 信源                                      | 遗照 | 休刊词                                                                  | 备注                   |
+|-------------|-------------------|--------------|--------------|---------|-----|-----------|----|-----------------------------------------|----|----------------------------------------------------------------------|----------------------|
+| 绍兴广播电视·生活周报 | CN33-CN33-0094/04 | 1992         | 绍兴广电报业有限公司   | 浙江绍兴    | 都市报 | 2019年7月5日 | 停刊 |                                         |    |                                                                      |                      |
+| 足球俱乐部       | 36-1183/G8        | 1993         | 江西出版集团       | 江西南昌    | 杂志  | 2019年1月7日 | 休刊 |                                         |    |                                                                      |                      |
+| 飞碟探索        | CN 62-1011/V      | 1981         | 读者出版传媒股份有限公司 | 甘肃兰州    | 杂志  | 2019年1月1日 | 休刊 |                                         |    |                                                                      | 休刊1年，未知现在是否回归        |
+| 北京晨报        | CN11-0142         | 1998         | 北京日报报业集团     | 北京      | 都市报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 新知讯报        |  CN64-0019        | 2004         | 宁夏日报社        | 宁夏银川    | 行业报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 重庆时报        | CN50-0012         | 2004         | 重庆市总工会       | 重庆      | 都市报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 华商晨报        | CN21-0073         | 2003         | 辽宁省归国华侨联合会   | 辽宁沈阳    | 都市报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 黑龙江晨报       |  CN23-0027        | 1992         | 黑龙江日报报业集团    | 黑龙江哈尔滨  | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      | 新中国第一张晨报             |
+| 赣州晚报        | CN36－0047         | 1994         | 赣南日报社        | 江西赣州    | 都市报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 亳州新报        | CN34-0049         | 1999         | 亳州晚报社        | 安徽亳州    | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      |                      |
+| 北京文摘        | CN11-0295         | 2015         | 北京日报社        | 北京      | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      |                      |
+| 生活周刊        |  CN31-0013        | 1925创，1985复刊 | 青年报社         | 上海      | 杂志  | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 今晨6点        | CN37-0037         | 2003         | 烟台日报传媒集团     | 山东 烟台威海 | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      | 是山东省内唯一一份跨地发行的地市级都市报 |
+| 辽沈晚报•铁岭版    | CN21-0027         | 2008         | 辽宁日报传媒集团     | 辽宁铁岭    | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      |                      |
+| 法制晚报        | CN11-0102         | 2004         | 北京青年报社       | 北京      | 行业报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 新晨报         | CN37-0092         | 2004         | 经济导报社        | 山东济南    | 都市报 | 2019年1月1日 | 休刊 |                                         |    |                                                                      |                      |
+| 伊犁晚报        | CN65一0026         | 1992         | 伊犁日报社        | 新疆伊犁    | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      |                      |
+| 库尔勒晚报       | CN65-0041         | 1993         | 库尔勒晚报社       | 新疆库尔勒   | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      |                      |
+| 中国测绘报       | CN11-0213         | 1993         | 中国测绘报社       | 北京      | 行业报 | 2019年1月1日 | 停刊 | https://www.sohu.com/a/286225107_650579 |    |                                                                      |                      |
+| 北方周末报       | CN15-0035         | 2000         | 内蒙古日报传媒集团    | 内蒙古呼和浩特 | 都市报 | 2019年1月1日 | 停刊 |                                         |    |                                                                      |                      |
+| 汕头都市报       | CN44-0183         | 1999         | 汕头经济特区报社     | 广东汕头    | 都市报 | 2019年1月1日 | 停刊 | https://www.sohu.com/a/214039238_155439 | 有  | http://gd.sina.com.cn/news/m/2018-01-01/detail-ifyqcwaq6542307.shtml |                      |
 
-1. Review the [Customization](customization) section and set theme properties as needed. For example:
 
-   ```html
-   <style>
-     :root {
-       /* Reduce the font size */
-       --base-font-size: 14px;
+## 2018年
 
-       /* Change the theme color hue */
-       --theme-hue: 325;
-
-       /* Change the sidebar bullets */
-       --sidebar-nav-link-before-content: '😀';
-     }
-   </style>
-   ```
-
-## Local Preview
-
-Previewing your site locally requires serving your files from a web server.
-
-The docsify [Quick Start](//docsify.js.org/#/quickstart) guide recommends [docsify-cli](//github.com/QingWei-Li/docsify-cli) for creating and previewing your site:
-
-```bash
-# Install docsify-cli globally
-npm install -g docsify-cli
-
-# Serve current directory
-docsify serve
-
-# Serve ./docs directory
-docsify serve docs
-```
-
-A simple [Python](https://www.python.org/) web server can also be used:
-
-```bash
-# Change to site directory
-cd /path/to/site/files
-
-# Show Python version
-python --version
-
-# Launch web server (Python 2.x)
-python -m SimpleHTTPServer
-
-# Launch web server (Python 3.x)
-python -m http.server
-```
-
-## Hosting
-
-Sites powered by [docsify.js](//docsify.js.org/) can be hosted on any web server. The [docsify website](//docsify.js.org/) provides a helpful [deployment guide](//docsify.js.org/#/deploy) with tips for hosting your site on following platforms:
-
-- [GitHub Pages](https://pages.github.com/)
-- [GitLab Pages](https://about.gitlab.com/features/pages/)
-- [Firebase Hosting](https://firebase.google.com/docs/hosting/)
-- [Virtual Private Server (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server)
+| 报刊名称       | 刊号         | 创办时间 | 主办单位       | 地区     | 类型  | 停/休刊时间      | 状态 | 信源 | 遗照 | 休刊词 | 备注                                               |
+|------------|------------|------|------------|--------|-----|-------------|----|----|----|-----|--------------------------------------------------|
+| 京郊日报       | CN 1l一0105 | 1980 | 北京日报社      | 北京     | 都市报 | 2018年12月29日 | 休刊 |    |    |     |                                                  |
+| 黄山日报•黄山晨刊  | CN34-0016  | 2004 | 黄山日报社      | 安徽黄山   | 都市报 | 2018年12月29日 | 停刊 |    |    |     |                                                  |
+| 人民公安报•消防周刊 |  CN11-0090 | 1998 | 中华人民共和国公安部 | 北京     | 行业报 | 2018年12月28日 | 停刊 |    |    |     |                                                  |
+| 新商报        | CN21-0086  | 2000 | 大连报业集团     | 辽宁大连   | 都市报 | 2018年12月28日 | 调整 |    |    |     | 新商报未来将转型《老友时代报》（拟用），深耕老龄传媒产业，为大连这座吸引力之城再添一个文化品牌。 |
+| 羊城地铁报      | CN44-0018  | 2006 | 广州日报社      | 广东广州   | 都市报 | 2018年12月1日  | 休刊 |    |    |     | 2020年8月31日，《羊城地铁报》更名为《湾区时报》获得国家新闻出版署批复           |
+| 申江服务导报     | CN31-0108  | 1998 | 解放日报报业集团   | 上海     | 都市报 | 2018年11月28日 | 休刊 |    |    |     |                                                  |
+| 新疆都市报      | CN65-0066  | 1998 | 新疆日报社      | 新疆乌鲁木齐 | 都市报 | 2018年7月1日   | 停刊 |    |    |     |                                                  |
+| 西部商报       | CN62-0019  | 2000 | 甘肃日报报业集团   | 甘肃兰州   | 都市报 | 2018年6月23日  | 休刊 |    |    |     |                                                  |
+| 无锡商报       | CN32-0010  | 2007 | 无锡日报报业集团   | 江苏无锡   | 都市报 | 2018年1月1日   | 停刊 |    |    |     |                                                  |
