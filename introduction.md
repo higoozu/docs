@@ -1,19 +1,12 @@
 # 拜拜，新闻纸！Bye Newspaper! 
 
 
-## #ByeNewspaper是什么
+## #ByeNewspaper
 
-- **源起**<br>
-  Theme settings are presented as a flat list of logically-named [CSS custom properties](customization). There's no need to navigate or modify complex CSS, allowing changes to be made quickly and confidently.
+想为报纸留一份底稿。
+项目部分内容仍在建设中...
 
-- **有什么**<br>
-  All processing is done in the browser, removing the need for CSS preprocessors and other build tools. Just link to a theme, then customize by setting [theme-related properties](customization). That's it.
-
-- **想为报纸留一份底稿**<br>
-  Use a theme as-is, or as a starting point for something completely new. All themes share the same customizable properties, making it easy mix styles from different themes.
-
-- **我们是谁**<br>
-  Enhancements that are unique to docsify-themeable—along with docsify- and browser-related bug fixes—provide a more enjoyable and trouble-free experience for site authors and visitors.
+**[>>停刊、休刊报纸列表](https://byenewspaper.com/#/list)**
 
 
 ## 鸣谢
