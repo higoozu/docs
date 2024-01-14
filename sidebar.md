@@ -1,8 +1,4 @@
-- [介绍](introduction)
-- [报纸列表](list)
-- [媒体报道](report)
-- [相关研究](research)
-- **链接**
-- [![Github](assets/img/github.svg)Github](https://github.com/bcsong/byenewspaper)
-- **鸣谢**
-- 本站使用 [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/) 搭建
+- [golang](Golang)
+- **links**
+- [![Github](assets/img/github.svg)Github](https://github.com/higoozu/)
+- [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/) 
